@@ -1,4 +1,6 @@
 ﻿using CodeWars.Kata;
+using System.Collections;
+using System.Collections.Concurrent;
 using System.Linq.Expressions;
 
 namespace CodeWars
@@ -7,7 +9,9 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            Slasher.CircleSlash(11);
+            var testIp = "128.32.10.1";
+
+            var final = IPConvert.FromInt32(12832101);
         }
 
         static void Ballerest()
