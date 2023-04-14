@@ -1,4 +1,5 @@
 ﻿using CodeWars.Kata;
+using CodeWars.Leet;
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Linq.Expressions;
@@ -9,9 +10,12 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            var testIp = "128.32.10.1";
+            var tester = Easy.TwoSum(new int[] { 2, 7, 11, 15 }, 9);
 
-            var final = IPConvert.FromInt32(12832101);
+            foreach (int o in tester)
+            {
+                Console.WriteLine(o);
+            }
         }
 
         static void Ballerest()
